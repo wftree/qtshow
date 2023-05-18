@@ -1,1 +1,28 @@
-{"containers":[],"config":{}}
+{
+  "containers": [
+    {
+      "name": "qtshow",
+      "containerId": "c814c992dc7ea29d5f4a6ec5eef65613a202100af9fc14ef59fd365b84d9ef1c",
+      "domain": "",
+      "ip": "",
+      "mode": "compose"
+    }
+  ],
+  "config": {
+    "qtshow": {
+      "remark": "",
+      "dockerfilePath": "Dockerfile",
+      "buildDir": "",
+      "minNum": 0,
+      "maxNum": 50,
+      "cpu": 0.5,
+      "mem": 1,
+      "policyType": "cpu",
+      "policyThreshold": 60,
+      "envParams": {},
+      "customLogs": "stdout",
+      "containerPort": 80,
+      "initialDelaySeconds": 2
+    }
+  }
+}
